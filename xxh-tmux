@@ -19,5 +19,5 @@ case $# in
                 ;;
 esac    
  
-tmux $args \
+tmux -L xxh-alok $args \
         $XXH_HOME/.xxh/shells/xxh-shell-$XXH_SHELL/build/entrypoint.sh
